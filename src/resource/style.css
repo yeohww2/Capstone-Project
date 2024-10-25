@@ -1,0 +1,54 @@
+/* General Hover Effect for Labels */
+.hover-label {
+    -fx-text-fill: #B0B0B0;
+    -fx-cursor: hand;
+}
+
+.hover-label:hover {
+    -fx-text-fill: lightblue;
+}
+
+.forgot-password-label {
+    -fx-text-fill: #B0B0B0; /* Default color */
+}
+
+.forgot-password-label:hover {
+    -fx-text-fill: lightcoral; /* Light red color on hover */
+}
+
+/* Profile Pane Hover Shadow */
+.profile-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 2, 2);
+}
+
+.profile-pane:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 5, 5);
+}
+
+/* Profile Image Shadow */
+.profile-image {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 2, 2);
+}
+
+.profile-image:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 5, 5);
+}
+
+/* Button Styles */
+.button-upload {
+    -fx-background-color: #003B73;
+    -fx-text-fill: white;
+}
+
+.button-save {
+    -fx-background-color: #003B73;
+    -fx-text-fill: white;
+}
+
+.button-logout {
+    -fx-background-color:  #7ab0e2;
+    -fx-text-fill: white;
+}
+
